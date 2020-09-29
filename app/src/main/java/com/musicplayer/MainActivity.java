@@ -20,7 +20,5 @@ public class MainActivity extends AppCompatActivity {
 		final RecyclerView musicRecyclerView = findViewById(R.id.music_recycler_list);
 		final LinearLayoutManager layoutManager = new LinearLayoutManager(this);
 		musicRecyclerView.setLayoutManager(layoutManager);
-
-		musicRecyclerView.getReadableDatabase();
 	}
 }
