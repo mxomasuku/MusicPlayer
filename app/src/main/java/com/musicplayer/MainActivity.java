@@ -22,4 +22,3 @@ public class MainActivity extends AppCompatActivity {
 		musicRecyclerView.setLayoutManager(layoutManager);
 	}
 }
-lorem50 and others;;
