@@ -11,7 +11,7 @@ public class MusicRecyclerAdapter extends RecyclerView.Adapter<MusicRecyclerAdap
 
 	@NonNull
 	@Override
-	public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+	public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
 		return null;
 	}
 
