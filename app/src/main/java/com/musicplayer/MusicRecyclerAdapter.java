@@ -22,7 +22,7 @@ public class MusicRecyclerAdapter extends RecyclerView.Adapter<MusicRecyclerAdap
 
 	@Override
 	public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-	
+
 
 	}
 
@@ -34,6 +34,7 @@ public class MusicRecyclerAdapter extends RecyclerView.Adapter<MusicRecyclerAdap
 	public class ViewHolder extends RecyclerView.ViewHolder{
 
 		public ViewHolder(@NonNull View itemView) {
+
 			super(itemView);
 		}
 	}
