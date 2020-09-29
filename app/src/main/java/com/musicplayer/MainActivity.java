@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
 		musicRecyclerView.setLayoutManager(layoutManager);
 
 
-		ask for permission()
+
+		public void setOnItemClickListener();
+
+
 	}
 }
