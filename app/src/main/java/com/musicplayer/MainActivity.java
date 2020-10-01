@@ -28,19 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
 		requestStorageAccess();
 
-		findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				useCamera();
-			}
-		});
 	}
 
-		private void useCamera() {
-				Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-				startActivityForResult(intent, 100);
 
-		}
 		private void requestStorageAccess() {
 				if(ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE)
 					== PackageManager.PERMISSION_GRANTED){
